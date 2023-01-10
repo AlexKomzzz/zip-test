@@ -1,0 +1,20 @@
+{{define "ex.html"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/assets/bulma.min.css">
+	<title></title>
+</head>
+<body>
+	<div class="container">
+		<form method="post" action="/parse-file">
+			<p>Загрузите таблицу</p>
+			<p><input type="file" name="file">
+			<input type="submit" value="Отправить"></p>
+		</form>
+	</div>
+</body>
+</html>
+{{end}}
