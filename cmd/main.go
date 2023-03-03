@@ -41,11 +41,10 @@ func main() {
 	<-quit
 
 	logrus.Print("Server Stopted")
-	logrus.Print("test2")
-	logrus.Print("test2")
-
-	logrus.Print("test2")
-
-	logrus.Print("test2")
+	logrus.Print("Server Stopted")
+	logrus.Print("Server Stopted")
+	logrus.Print("Server Stopted")
+	logrus.Print("Server Stopted")
+	logrus.Print("Server Stopted")
 
 }
